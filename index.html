@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="init();">
+    <h1>
+        Samurai Figthing SIM
+    </h1>
+    <div id="fighters">
+        <img src="img" alt="Player Figher">
+        <img src="img" alt="CPU Fighter">
+    </div>
+    <div id="names">
+        <p>Player</p> 
+        <p>CPU</p>
+    </div>
+    <div id="controls">
+        <button type="button" onclick="attack();">Attack</button>
+        <button type="button" onclick="defend();">Defend</button>
+        <button type="button" onclick="finisher();">Finishing Move</button>
+    </div>
+    <h3>Log</h3>
+    <table id="log">
+        <tr>
+            <th>Player</th>
+            <th>CPU</th>
+        </tr>
+    </table>
+</body>
+</html>
